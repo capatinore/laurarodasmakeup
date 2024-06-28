@@ -1,0 +1,93 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+/*Colores Lady:
+d49f77 rgb(212, 159, 119)
+7a5439 rgb(122, 84, 57)
+e6bdab rgb(230, 189, 171)
+f0dfc5 rgb(240, 223, 197)
+8ca9bb rgb(140, 169, 187)
+ */
+/****************************************************************************************/
+/*BACKGROUND*/
+.custom-bg1 {
+    background-color: rgb(212, 159, 119); /* Cambia este valor por el color que desees */
+}
+
+.custom-bg2 {
+    background-color: rgb(122, 84, 57); /* Cambia este valor por el color que desees */
+}
+
+.custom-bg3 {
+    background-color: rgb(230, 189, 171); /* Cambia este valor por el color que desees */
+}
+
+.custom-bg4 {
+    background-color: rgb(240, 223, 197); /* Cambia este valor por el color que desees */
+}
+
+.custom-bg5 {
+    background-color: rgb(140, 169, 187); /* Cambia este valor por el color que desees */
+}
+
+/****************************************************************************************/
+/*TEXT*/
+.custom-text1 {
+    color: rgb(212, 159, 119); /* Cambia este valor por el color que desees */
+}
+
+.custom-text2 {
+    color: rgb(122, 84, 57); /* Cambia este valor por el color que desees */
+}
+
+.custom-text3 {
+    color: rgb(230, 189, 171); /* Cambia este valor por el color que desees */
+}
+
+.custom-text4 {
+    color: rgb(240, 223, 197); /* Cambia este valor por el color que desees */
+}
+
+.custom-text5 {
+    color: rgb(140, 169, 187); /* Cambia este valor por el color que desees */
+}
+
+.navbar-brand img {
+    height: 100px; /* Ajusta la altura del logo según sea necesario */
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+.custom-btn1 {
+    background-color: rgb(230, 189, 171); /* Cambia este valor por el color que desees */
+    /*border-color: #ff5733; /* Cambia este valor para que coincida con el color de fondo */
+    color: rgb(122, 84, 57); /* Asegúrate de que el texto sea legible */
+}
+.custom-btn1:hover {
+    background-color: rgb(122, 84, 57); /* Color de fondo al pasar el mouse */
+    color: rgb(230, 189, 171); /* Color del borde al pasar el mouse */
+}
+
+.custom-btn2 {
+    background-color: rgb(122, 84, 57); /* Cambia este valor por el color que desees */
+    /*border-color: #ff5733; /* Cambia este valor para que coincida con el color de fondo */
+    color: rgb(230, 189, 171); /* Asegúrate de que el texto sea legible */
+}
+.custom-btn2:hover {
+    background-color: rgb(230, 189, 171); /* Color de fondo al pasar el mouse */
+    color: rgb(122, 84, 57); /* Color del borde al pasar el mouse */
+}
+
+.custom-btn3 {
+    background-color: rgb(255, 255, 255); /* Cambia este valor por el color que desees */
+    /*border-color: #ff5733; /* Cambia este valor para que coincida con el color de fondo */
+    /*color: rgb(230, 189, 171); /* Asegúrate de que el texto sea legible */
+}

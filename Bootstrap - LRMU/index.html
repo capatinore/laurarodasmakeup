@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only-->
+    <!--se copian los siguientes elementos desde: https://getbootstrap.com/ desde la sección Include via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--Bootstrap icons-->
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!--start navbar-->
+    <div class="col-xxl-12">
+        <nav class="navbar navbar-expand-lg custom-bg3 navbar-dark fixed-top p-20">
+            <div class="container">
+                <a href="" class="navbar-brand "><img src="img/LauraLogo.jpeg" alt="Logo">Laura Rodas Makeup</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#learn" class="nav-link custom-text2">Talleres de automaquillaje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#brands" class="nav-link custom-text2">Marcas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#questions" class="nav-link custom-text2">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#clients" class="nav-link custom-text2">Clientes felices</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--end navbar-->
+
+    <!--start section: ShowCase-->
+    <section class="text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1 class="custom-text2">Maquilladora <span class="custom-text5">Profesional</span></h1>
+                    <p class="lead custom-text2">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis vel mollitia soluta quae
+                        eius, minima, excepturi temporibus explicabo cupiditate, esse tempora maxime commodi expedita!
+                    </p>
+                    <button class="btn custom-btn1" data-bs-toggle="modal" data-bs-target="#enroll">Agenda tu
+                        cita</button>
+                </div>
+                <img src="img/LauraLogo2.jpeg" alt="" class="img-flui w-50 d-none d-sm-block">
+            </div>
+        </div>
+    </section>
+    <!--end section: ShowCase-->
+
+    <!--start section: Newsletter-->
+    <section class="custom-bg2 text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Suscríbete para obtener más información</h3>
+                <div class="input-group mb-3 news-input">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <button class="btn custom-btn1 btn-lg">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section: Newsletter-->
+
+    <!--start section: Boxes-->
+    <section class="p-5">
+        <div class="container"></div>
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card custom-bg4 text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3"><i class="bi bi-image custom-text2"></i></div>
+                        <h3 class="card-title mb-3 custom-text2">En mi estudio</h3>
+                        <p class="card-text custom-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                            officia, in
+                            unde ipsam quos maiores?</p>
+                        <a href="" class="btn custom-bg2 custom-text4 ">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card custom-bg5 text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3"><i class="bi bi-house"></i></div>
+                        <h3 class="card-title mb-3">En tu casa</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia, in
+                            unde ipsam quos maiores?</p>
+                        <a href="" class="btn custom-btn3 custom-text5">Leer más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md">
+                <div class="card custom-bg3 text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3"><i class="bi bi-people custom-text2"></i></div>
+                        <h3 class="card-title mb-3 custom-text2">Grupos</h3>
+                        <p class="card-text custom-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                            officia, in
+                            unde ipsam quos maiores?</p>
+                        <a href="" class="btn custom-bg2 custom-text3">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--end section: Boxes-->
+
+    <!--start section: Learn-->
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-item-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/Automaquillaje.png" alt="" class="img-fluid w-100">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Talleres de automaquillaje</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cupiditate asperiores
+                        delectus ad harum. Fugiat pariatur ipsam beatae odio laboriosam.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed magnam nihil aut,
+                        officiis praesentium commodi dolores recusandae. Iste molestiae explicabo accusantium pariatur
+                        quam maiores.</p>
+                    <a href="" class="btn custom-btn1 mt-3">
+                        <i class="bi bi-chevron-right"></i>Leer más
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section: Learn-->
+
+    <!--start section: brands-->
+    <section id="brands" class="p-5 custom-bg2 text-light">
+        <div class="container">
+            <div class="row align-item-center justify-content-between">
+                <div class="col-md p-5">
+                    <h2>Nuestras marcas asociadas</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem cupiditate asperiores
+                        delectus ad harum. Fugiat pariatur ipsam beatae odio laboriosam.</p>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sed magnam nihil aut,
+                        officiis praesentium commodi dolores recusandae. Iste molestiae explicabo accusantium pariatur
+                        quam maiores.</p>
+                    <a href="" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i>Leer más
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/marcas.jpg" alt="" class="img-fluid w-100">
+                    <img src="img/marcas.jpg" alt="" class="img-fluid w-100">
+                    <img src="img/marcas.jpg" alt="" class="img-fluid w-100">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--end section: Learn React-->
+
+    <!--start section: Questions -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <!--Start Item 1-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            ¿Dónde queda el estudio de Laura Rodas Makeup?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion
+                            body.</div>
+                    </div>
+                </div>
+                <!--End Item 1-->
+
+                <!--Start Item 2-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            ¿Cuánto cuesta inscribirse?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion
+                            body. Let's imagine this being filled with some actual content.</div>
+                    </div>
+                </div>
+                <!--End Item 2-->
+
+                <!--Start Item 3-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            ¿Qué necesito saber?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <!--End Item 3-->
+
+                <!--Start Item 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            ¿Qué restricciones existen para pieles delicadas?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion
+                            body. Nothing more exciting happening here in terms of content, but just filling up the
+                            space to make it look, at least at first glance, a bit more representative of how this would
+                            look in a real-world application.</div>
+                    </div>
+                </div>
+                <!--End Item 4-->
+            </div>
+        </div>
+
+    </section>
+    <!--end section: -->
+
+    <!--start section: clients-->
+    <section id="clients" class="p-5 custom-bg5">
+        <div class="container">
+            <h2 class="text-center custom-text4">Clientes Felices</h2>
+            <p class="text-center lead custom-text4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eius.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/9.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Camila</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+                                repellat ut animi ratione veritatis dolore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/10.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Paula</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+                                repellat ut animi ratione veritatis dolore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/18.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Lady</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+                                repellat ut animi ratione veritatis dolore.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="card-title mb-3">Andrea</h3>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+                                repellat ut animi ratione veritatis dolore.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--end section: Instructors-->
+
+    <!--start Footer-->
+    <footer class="p-5 custom-bg3 text-center custom-text2 position-relative">
+        <p class="lead">Copyright &copy; 2024 Laura Rodas Makeup</p>
+        <a href="" class="position-absolute bottom-0 end-0 p-5 custom-text2"><i
+                class="bi bi-arrow-up-circle h1"></i></a>
+
+    </footer>
+    <!--end Footer-->
+
+    <!--start modal -->
+    <div class="modal" id="enroll">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inscripción</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Completa este formulario y nos comunicaremos con usted.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label class="col-form-label">Nombre:</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="col-form-label">Apellido:</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="col-form-label">Email:</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="col-form-label">Celular:</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn custom-btn1" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn custom-btn2">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end modal -->
+
+    <!-- Javascript Bundle with Popper-->
+    <!--se copian los siguientes elementos desde: https://getbootstrap.com/ desde la sección Include via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
